@@ -1,0 +1,15 @@
+
+ng-model=".checked" value="exist1"
+ng-model=".checked" value="other"
+ng-show=".checked  == 'other'"
+
+
+
+ng-model=".checked"
+ng-show=".checked"
+
+
+            <div ng-messages="myForm.email.$error">
+                                <div ng-message="required">This field is required</div>
+                                <div ng-message="email">Your email address is invalid</div>
+                            </div>
