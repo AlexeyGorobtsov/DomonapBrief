@@ -1,7 +1,7 @@
 <?php
 
 
-require_once("design/Log.class.php");
+//require_once("Log.class.php");
 require_once("Brief.php");
 require_once("Audience.php");
 require_once("Client.php");
